@@ -12,7 +12,7 @@ function About() {
   const handleTextChange = (value: string) => {
     setText(value);
   };
-
+console.log("check")
   const handleSubmit = () => {
     if (!text.trim()) {
       setAlert({ type: 'error', message: 'Content cannot be empty! Please enter some text.' });
